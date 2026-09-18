@@ -1,5 +1,5 @@
 #include <bits/stdc++.h>
-#define end "\n"
+#define endl "\n"
 
 using namespace std;
 typedef long long ll;

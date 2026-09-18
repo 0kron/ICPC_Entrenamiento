@@ -31,7 +31,7 @@ int main() {
    cin.tie(0);
    int n; cin >> n;
    int a, b;
-   while (n--){
+   while (--n){
       cin >> a >> b;
       cout << power(a, b) << "\n";
    }
