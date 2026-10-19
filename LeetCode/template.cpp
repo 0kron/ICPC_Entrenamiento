@@ -20,6 +20,6 @@ int main() {
    Solution solve;
    //test cases: vector<int> nums = {0};
    // solve.functionName(args);
-	
+
    return 0;
 }
