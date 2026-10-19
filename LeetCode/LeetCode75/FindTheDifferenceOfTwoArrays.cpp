@@ -25,7 +25,6 @@ public:
       for (int i : n2){
          if (!n1.count(i)) result[1].push_back(i);
       }
-
       return result;
    }
 };
@@ -38,7 +37,7 @@ int main() {
    vector<int> nums2 = {1, 1, 2, 2};
 
    vector<vector<int>> result = solve.findDifference(nums1, nums2);
-   
+
    cout << "Answer 1: ";
    for (int i : result[0]) cout << i << ' ';
    cout << endl;
